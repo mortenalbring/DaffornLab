@@ -1,0 +1,16 @@
+body {
+    
+    background: url(image1sat.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.bg-navbar-trans {
+    background-color: rgba(1, 1, 1%, 0.8);
+}
+
+.pad-top {
+    padding-top:100px;
+}

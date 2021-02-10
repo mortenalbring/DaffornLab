@@ -7,6 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		index.html = index.html
 		main.css = main.css
+		image1.jpeg = image1.jpeg
+		image1sat.jpeg = image1sat.jpeg
+		image3.jpeg = image3.jpeg
+		image2.jpeg = image2.jpeg
+		people.html = people.html
 	EndProjectSection
 EndProject
 Global
