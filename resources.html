@@ -10,51 +10,12 @@
           integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
     <link href="main.css" rel="stylesheet">
-
+    <script src="shared.js"></script>
     <title>Dafforn Lab</title>
+
 </head>
 <body>
-<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-navbar-trans">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Dafforn Lab</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="people.html">People</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                       data-bs-toggle="dropdown" aria-expanded="false">
-                        Projects
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="SMALPs.html">SMALPS</a></li>
-                        <li><a class="dropdown-item" href="EXPARetc.html">Diagnostics</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Publications</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Resources</a>
-                </li>
-            </ul>
-
-        </div>
-    </div>
-</nav>
+<div w3-include-html="navbar.html"></div>
 
 <div class="container">
     <div class="row">
@@ -99,3 +60,7 @@
 
 </body>
 </html>
+
+<script>
+    includeHTML();
+</script>
