@@ -11,6 +11,11 @@ body {
     background-color: rgba(1, 1, 1%, 0.8);
 }
 
+.navbar-brand {
+    color:white !important;
+    padding-right:10em;
+}
+
 .pad-top {
     padding-top:100px;
 }
