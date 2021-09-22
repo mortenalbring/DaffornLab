@@ -8,18 +8,33 @@ body {
 }
 
 .bg-navbar-trans {
-    background-color: rgba(1, 1, 1%, 0.8);
+    background-color: rgba(255, 255, 255, 0.12);
 }
 
 .navbar-brand {
     color:white !important;
-    padding-right:10em;
+    padding-right:10%;
 }
 
 .pad-top {
     padding-top:100px;
 }
 
+.navbar {
+    border-bottom:1px solid #8a8a8a;
+    padding-bottom: 1em;
+    margin-bottom:1em;
+}
+
+.nav-item {
+    
+}
+.nav-item a {
+    color:white !important;
+}
+.nav-item a:hover {
+    color:black;
+}
 a {
     color:black;
     text-decoration: none;
